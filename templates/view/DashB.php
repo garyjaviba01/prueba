@@ -69,7 +69,7 @@
             <li>
               <i style="color:#ced4da;">Usuario - rol </i><br><br>
             </li>
-            <li onclick="MostrarTabla2()"  >
+            <li onclick="Cargar('templates/view/Productos.php','container')"  >
               <a class="js-arrow" href="#" >
               Crear</a>
             </li>
@@ -95,7 +95,7 @@
             <li>
               <i style="color:#ced4da;">Usuario - rol </i><br><br>
             </li>
-            <li onclick="MostrarTabla2();CambiarFoco(0)" class="">
+            <li onclick="Cargar('templates/view/Productos.php','container');CambiarFoco(0)" class="">
               <a class="js-arrow itemMenu itemMenuActive" href="#" >
               Crear</a>
             </li>
